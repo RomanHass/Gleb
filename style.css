@@ -1,0 +1,68 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login {
+    text-decoration: none;
+    color: #005282;
+}
+
+.login:hover {
+    color: #0072b3;
+    text-decoration: underline;
+}
+
+.title {
+    text-decoration: none;
+}
+
+.title a {
+    color: #005282;
+    text-decoration: none;
+}
+
+.title a:hover {
+    color: #0072b3;
+    text-decoration: underline;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btns {
+    display: flex;
+}
+
+.btn {
+    background-color: #005282;
+    color: #fff;
+    width: 200px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 21px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0072b3;
+}
+
+.btn-two {
+    margin-left: 15px;
+}
+
+.text-center {
+    font-size: 22px;
+}
